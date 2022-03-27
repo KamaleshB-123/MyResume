@@ -1,0 +1,163 @@
+body{
+    background-color: #3183f5;
+    margin: 0px;
+}
+
+
+.center{
+    text-align: center;
+}
+.colorblack{
+    color: black;
+}
+
+div.category{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    overflow: visible;
+}
+
+img{
+    height: 180px;
+    position: relative;
+    float: right;
+    /*margin-right: 50%;*/
+}
+
+
+p.category{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.content{
+    background-color: white;
+    margin: 40px 8px 40px 8px;
+    padding: 0px 8px 20px 8px;
+    /*min-width: 350px; */
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}
+
+.head-fontstyle{
+    font-weight: bold;
+    font-size: 20px;   
+}
+
+
+/* Desktop screen */
+
+
+@media only screen and (min-width: 768px) {
+    .center{
+        text-align: center;
+    }
+    .colorblack{
+        color: black;
+    }
+    
+    div.category{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        overflow: visible;
+    }
+    
+    img{
+        height: 180px;
+        position: relative;
+        float: right;
+        margin-right: 28%;
+    }
+    
+    
+    p.category{
+        background-color: black;
+        color: white;
+        display: inline-block;
+        margin-top: -20px;
+        margin-bottom: 0px;
+        padding: 8px 20px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    
+    .content{
+        background-color: white;
+        margin: 40px 8px 40px 8px;
+        padding: 0px 8px 20px 8px;
+        /*min-width: 350px; */
+        box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+        overflow: visible;
+    }
+    
+    .head-fontstyle{
+        font-weight: bold;
+        font-size: 20px;   
+    }
+    
+
+}
+
+/* Very large screen */
+
+
+@media only screen and (min-width: 900px) {
+    .center{
+        text-align: center;
+    }
+    .colorblack{
+        color: black;
+    }
+    
+    div.category{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        overflow: visible;
+    }
+    
+    img{
+        height: 180px;
+        position: relative;
+        float: right;
+        margin-right: 28%;
+    }
+    
+    
+    p.category{
+        background-color: black;
+        color: white;
+        display: inline-block;
+        margin-top: -20px;
+        margin-bottom: 0px;
+        padding: 8px 20px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    
+    .content{
+        background-color: white;
+        margin: 40px 8px 40px 8px;
+        padding: 0px 8px 20px 8px;
+        /*min-width: 350px; */
+        box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+        overflow: visible;
+    }
+    
+    .head-fontstyle{
+        font-weight: bold;
+        font-size: 20px;   
+    }
+    
+
+}
+
+
